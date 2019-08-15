@@ -40,13 +40,13 @@ def map_to_square(source_array)
 end
 
 def reduce_to_total(source_array, starting_point)
-  array = []
+  value = starting_point
   i = 0
   while i < source_array.length do
-    array.push(source_array[1]+starting_point)
+    value += source_array[i]
     i += 1
   end
-  return
+  return value
 end
   
   
