@@ -33,7 +33,7 @@ def map_to_square(source_array)
   array = []
   i = 0
   while i < source_array.length do
-    array.push(source_array[i].sqrt)
+    array.push(source_array[i] * source_array[i])
     i += 1
   end
   return array
